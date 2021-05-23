@@ -1,0 +1,61 @@
+2021-05-20 16:42:03,315  - http://
+2021-05-20 16:42:56,243  - SELECT tagcounter_db.tagcount 
+FROM tagcounter_db 
+WHERE tagcounter_db.url = ?
+2021-05-20 16:42:56,243  - [cached since 73.99s ago] ('http://mail.ru',)
+2021-05-20 16:43:09,195  - http://google.com
+2021-05-20 16:43:12,990  - SELECT tagcounter_db.tagcount 
+FROM tagcounter_db 
+WHERE tagcounter_db.url = ?
+2021-05-20 16:43:12,991  - [cached since 90.73s ago] ('http://google.com',)
+2021-05-20 16:45:48,774  - http://yandex.ru
+2021-05-20 16:46:30,913  - http://mail.ru
+2021-05-20 16:46:33,356  - SELECT tagcounter_db.site_name, tagcounter_db.url, tagcounter_db.date_time, tagcounter_db.tagcount 
+FROM tagcounter_db 
+WHERE tagcounter_db.url = ?
+2021-05-20 16:46:33,359  - [generated in 0.00266s] ('http://mail.ru',)
+2021-05-20 16:46:33,359  - INSERT INTO tagcounter_db (site_name, url, date_time, tagcount) VALUES (?, ?, ?, ?)
+2021-05-20 16:46:33,361  - [generated in 0.00107s] ('mail', 'http://mail.ru', datetime.datetime(2021, 5, 20, 16, 46, 33, 359964), b'\x80\x04\x95\xdf\x00\x00\x00\x00\x00\x00\x00}\x94(\x8c\x04html\x94K\x02\x8c\x04head\x94K\x02\x8c\x04meta\x94KN\x8c\x05title\x94K\x02\x8c\x04link\x94 ... (256 characters truncated) ... \x8c\x02h1\x94K\x02\x8c\x04form\x94K\x04\x8c\x06select\x94K\x02\x8c\x06option\x94K\n\x8c\x05label\x94K\x08\x8c\x05input\x94K\x16\x8c\x02br\x94K\x02u.')
+2021-05-20 16:46:33,362  - COMMIT
+2021-05-23 01:38:05,780  - http://google.com
+2021-05-23 01:38:07,618  - SELECT tagcounter_db.site_name, tagcounter_db.url, tagcounter_db.date_time, tagcounter_db.tagcount 
+FROM tagcounter_db 
+WHERE tagcounter_db.url = ?
+2021-05-23 01:38:07,619  - [generated in 0.00041s] ('http://google.com',)
+2021-05-23 01:38:07,621  - INSERT INTO tagcounter_db (site_name, url, date_time, tagcount) VALUES (?, ?, ?, ?)
+2021-05-23 01:38:07,621  - [generated in 0.00043s] ('google', 'http://google.com', datetime.datetime(2021, 5, 23, 1, 38, 7, 620760), b'\x80\x04\x95\xb9\x00\x00\x00\x00\x00\x00\x00}\x94(\x8c\x04html\x94K\x02\x8c\x04head\x94K\x02\x8c\x04meta\x94K\x04\x8c\x05title\x94K\x02\x8c\x06scrip ... (185 characters truncated) ... x94K\n\x8c\x03img\x94K\x04\x8c\x04form\x94K\x02\x8c\x05table\x94K\x02\x8c\x02tr\x94K\x02\x8c\x02td\x94K\x06\x8c\x05input\x94K\x14\x8c\x01p\x94K\x02u.')
+2021-05-23 01:38:07,624  - COMMIT
+2021-05-23 01:38:18,693  - http://google.com
+2021-05-23 01:38:41,941  - http://google.com
+2021-05-23 01:39:00,262  - SELECT tagcounter_db.site_name, tagcounter_db.url, tagcounter_db.date_time, tagcounter_db.tagcount 
+FROM tagcounter_db 
+WHERE tagcounter_db.url = ?
+2021-05-23 01:39:00,262  - [generated in 0.00045s] ('http://google.com',)
+2021-05-23 01:39:00,266  - UPDATE tagcounter_db SET site_name=?, url=?, date_time=?, tagcount=? WHERE tagcounter_db.url = ?
+2021-05-23 01:39:00,266  - [generated in 0.00030s] ('google', 'http://google.com', datetime.datetime(2021, 5, 23, 1, 39, 0, 265973), b'\x80\x04\x95\xb9\x00\x00\x00\x00\x00\x00\x00}\x94(\x8c\x04html\x94K\x02\x8c\x04head\x94K\x02\x8c\x04meta\x94K\x04\x8c\x05title\x94K\x02\x8c\x06scrip ... (185 characters truncated) ... x94K\n\x8c\x03img\x94K\x04\x8c\x04form\x94K\x02\x8c\x05table\x94K\x02\x8c\x02tr\x94K\x02\x8c\x02td\x94K\x06\x8c\x05input\x94K\x14\x8c\x01p\x94K\x02u.', 'http://google.com')
+2021-05-23 01:39:00,288  - COMMIT
+2021-05-23 01:39:12,870  - http://google.com
+2021-05-23 01:39:13,458  - SELECT tagcounter_db.site_name, tagcounter_db.url, tagcounter_db.date_time, tagcounter_db.tagcount 
+FROM tagcounter_db 
+WHERE tagcounter_db.url = ?
+2021-05-23 01:39:13,458  - [generated in 0.00044s] ('http://google.com',)
+2021-05-23 01:39:13,461  - UPDATE tagcounter_db SET site_name=?, url=?, date_time=?, tagcount=? WHERE tagcounter_db.url = ?
+2021-05-23 01:39:13,461  - [generated in 0.00039s] ('google', 'http://google.com', datetime.datetime(2021, 5, 23, 1, 39, 13, 460407), b'\x80\x04\x95\xb9\x00\x00\x00\x00\x00\x00\x00}\x94(\x8c\x04html\x94K\x02\x8c\x04head\x94K\x02\x8c\x04meta\x94K\x04\x8c\x05title\x94K\x02\x8c\x06scrip ... (185 characters truncated) ... x94K\n\x8c\x03img\x94K\x04\x8c\x04form\x94K\x02\x8c\x05table\x94K\x02\x8c\x02tr\x94K\x02\x8c\x02td\x94K\x06\x8c\x05input\x94K\x14\x8c\x01p\x94K\x02u.', 'http://google.com')
+2021-05-23 01:39:13,480  - COMMIT
+2021-05-23 01:42:32,544  - http://google.com
+2021-05-23 01:42:33,270  - SELECT tagcounter_db.site_name, tagcounter_db.url, tagcounter_db.date_time, tagcounter_db.tagcount 
+FROM tagcounter_db 
+WHERE tagcounter_db.url = ?
+2021-05-23 01:42:33,271  - [generated in 0.00043s] ('http://google.com',)
+2021-05-23 01:42:33,273  - UPDATE tagcounter_db SET site_name=?, url=?, date_time=?, tagcount=? WHERE tagcounter_db.url = ?
+2021-05-23 01:42:33,273  - [generated in 0.00033s] ('google', 'http://google.com', datetime.datetime(2021, 5, 23, 1, 42, 33, 272461), b'\x80\x04\x95\xb9\x00\x00\x00\x00\x00\x00\x00}\x94(\x8c\x04html\x94K\x02\x8c\x04head\x94K\x02\x8c\x04meta\x94K\x04\x8c\x05title\x94K\x02\x8c\x06scrip ... (185 characters truncated) ... x94K\n\x8c\x03img\x94K\x04\x8c\x04form\x94K\x02\x8c\x05table\x94K\x02\x8c\x02tr\x94K\x02\x8c\x02td\x94K\x06\x8c\x05input\x94K\x14\x8c\x01p\x94K\x02u.', 'http://google.com')
+2021-05-23 01:42:33,274  - COMMIT
+2021-05-23 01:42:48,518  - http://python.org
+2021-05-23 01:42:51,168  - SELECT tagcounter_db.site_name, tagcounter_db.url, tagcounter_db.date_time, tagcounter_db.tagcount 
+FROM tagcounter_db 
+WHERE tagcounter_db.url = ?
+2021-05-23 01:42:51,168  - [generated in 0.00037s] ('http://python.org',)
+2021-05-23 01:42:51,170  - INSERT INTO tagcounter_db (site_name, url, date_time, tagcount) VALUES (?, ?, ?, ?)
+2021-05-23 01:42:51,171  - [generated in 0.00037s] ('python', 'http://python.org', datetime.datetime(2021, 5, 23, 1, 42, 51, 170509), b'\x80\x04\x95\\\x01\x00\x00\x00\x00\x00\x00}\x94(\x8c\x04html\x94K\x02\x8c\x04head\x94K\x02\x8c\x04meta\x94K0\x8c\x04link\x94K \x8c\x06script\x94K\x1 ... (534 characters truncated) ... 94K\x02\x8c\x05table\x94K\x02\x8c\x05tbody\x94K\x02\x8c\x02tr\x94K\x02\x8c\x02td\x94K\x02\x8c\x02em\x94K\x02\x8c\x01b\x94K\n\x8c\x06footer\x94K\x02u.')
+2021-05-23 01:42:51,172  - COMMIT
+2021-05-23 01:43:24,291  - http://python.org
